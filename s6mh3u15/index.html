@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkCrystalRAT — Лицензии</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0b0b0e;
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 30px 20px;
+        }
+        .card {
+            background: #14141c;
+            border: 1px solid #2a2a3a;
+            border-radius: 20px;
+            max-width: 860px;
+            width: 100%;
+            padding: 45px 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+        h1 {
+            font-size: 32px;
+            color: #e0e0ff;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #2a2a3a;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        h1 span {
+            color: #7a7aff;
+        }
+        .desc {
+            color: #a0a0b8;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            background: #1a1a26;
+            padding: 18px 20px;
+            border-radius: 12px;
+            border-left: 3px solid #7a7aff;
+        }
+        .prices {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 35px;
+        }
+        .plan {
+            background: #1a1a26;
+            border: 1px solid #2a2a3a;
+            border-radius: 14px;
+            padding: 22px 20px;
+            flex: 1 1 180px;
+            text-align: center;
+            transition: 0.2s;
+        }
+        .plan:hover {
+            border-color: #7a7aff;
+            background: #202030;
+        }
+        .plan .name {
+            color: #c0c0e0;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .plan .price {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .plan .price small {
+            font-size: 14px;
+            font-weight: 400;
+            color: #8888aa;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 20px;
+            margin-bottom: 30px;
+            color: #b0b0cc;
+            font-size: 13px;
+            background: #101018;
+            padding: 18px 20px;
+            border-radius: 12px;
+            border: 1px solid #222233;
+        }
+        .features li {
+            list-style: none;
+            padding: 4px 0;
+        }
+        .features li::before {
+            content: "▸ ";
+            color: #7a7aff;
+        }
+        .buy {
+            background: #1a1a26;
+            border-radius: 14px;
+            padding: 22px 25px;
+            text-align: center;
+            border: 1px solid #2a2a3a;
+        }
+        .buy .contact {
+            color: #c0c0e0;
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+        .buy .bot {
+            color: #7a7aff;
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        .buy .bot:hover {
+            color: #a0a0ff;
+            text-shadow: 0 0 10px rgba(122,122,255,0.3);
+        }
+        .buy .notice {
+            color: #666688;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .footnote {
+            text-align: center;
+            margin-top: 20px;
+            color: #444466;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+        }
+        .footnote a {
+            color: #555577;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            .card { padding: 30px 18px; }
+            .features { grid-template-columns: 1fr; }
+            .prices { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>DarkCrystal<span>RAT</span></h1>
 
+    <div class="desc">
+        <strong>Лицензия активируется через бота.</strong><br>
+        Билд не работает в СНГ. Требуется VDS/VPS/Web-хостинг. Работает без портов.<br>
+        Все обновления бесплатны, кол-во билдов не ограничено. 
+        <span style="color:#7a7aff;">Поддержка 24/7.</span>
+    </div>
+
+    <div class="prices">
+        <div class="plan">
+            <div class="name">2 месяца</div>
+            <div class="price">600 <small>₽</small></div>
+        </div>
+        <div class="plan">
+            <div class="name">1 год</div>
+            <div class="price">2500 <small>₽</small></div>
+        </div>
+        <div class="plan">
+            <div class="name">Навсегда</div>
+            <div class="price">4500 <small>₽</small></div>
+        </div>
+    </div>
+
+    <ul class="features">
+        <li>AutoStealer / AutoUninstall</li>
+        <li>Скрытый Remote Desktop</li>
+        <li>Продвинутая система фильтров</li>
+        <li>Mass-команды (Tasks / Global)</li>
+        <li>Просмотр веб-камеры в реальном времени</li>
+        <li>Просмотр экрана в реальном времени</li>
+        <li>Кейлоггер с сортировкой по дате</li>
+        <li>Поддержка Gecko / Chromium браузеров</li>
+        <li>Вес билда: 300-400 кб</li>
+        <li>Собственный редактор плагинов</li>
+        <li>Поддержка новых версий Chrome & Firefox</li>
+        <li>Привязка к другому ПК через бота</li>
+    </ul>
+
+    <div class="buy">
+        <div class="contact">Купить лицензию:</div>
+        <a class="bot" href="https://t.me/CrystalCoderBot" target="_blank">@CrystalCoderBot</a>
+        <div class="notice">Перед покупкой ознакомьтесь с условиями.</div>
+    </div>
+
+    <div class="footnote">
+        <a href="#">сrystal</a> · <a href="#">files.in</a> · <a href="#">DCRat</a>
+    </div>
+</div>
+</body>
+</html>
