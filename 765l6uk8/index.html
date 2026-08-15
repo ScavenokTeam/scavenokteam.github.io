@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YES</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #ffff00;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            animation: blink-bg 0.5s step-end infinite;
+            text-align: center;
+        }
+
+        @keyframes blink-bg {
+            0%, 100% { background: #ffff00; }
+            50% { background: #ffffff; }
+        }
+
+        .big {
+            font-size: 8rem;
+            font-weight: 900;
+            color: #000000;
+            text-shadow: 4px 4px 0 #888888;
+            letter-spacing: 8px;
+            animation: text-blink 0.6s step-end infinite;
+            image-rendering: pixelated;
+            -webkit-font-smoothing: none;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .small {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #000000;
+            text-shadow: 2px 2px 0 #888888;
+            margin-top: 20px;
+            letter-spacing: 2px;
+            animation: text-blink 0.6s step-end infinite;
+            image-rendering: pixelated;
+            -webkit-font-smoothing: none;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        @keyframes text-blink {
+            0%, 100% { color: #000000; }
+            50% { color: #222222; }
+        }
+
+        @media (max-width: 600px) {
+            .big { font-size: 5rem; }
+            .small { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="big">YES</div>
+    <div class="small">Tonight you will get your dick ripped off!</div>
+</body>
+</html>
